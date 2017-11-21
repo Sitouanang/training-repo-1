@@ -6,3 +6,29 @@ body {
   border: 0;
   background-color: #ccc;
 }
+
+.step {
+  margin: 50px 0;
+  text-align: center;
+  transform: skewY(170deg);
+}
+
+.step__title {
+  color: #088;
+  font-size: 32px;
+}
+
+.step__skew-input-container {
+  width: 400px;
+  margin: 50px auto;
+}
+
+.skew-input {
+  padding: 5px;
+  border: 1px #33f solid;
+  text-align: center;
+}
+
+.step--reverse {
+  transform: skew(30deg, -10deg);
+}
