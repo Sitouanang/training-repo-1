@@ -10,7 +10,7 @@ body {
 .step {
   margin: 50px 0;
   text-align: center;
-  transform: skewY(170deg);
+  transform: skewY(169deg);
 }
 
 .step__title {
